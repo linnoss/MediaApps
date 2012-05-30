@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<container name="Web">
+  <xsl>linnrecords</xsl>
+  <xsl>bbc</xsl>
+  <xsl>npr</xsl>
+  <xsl>wfmu</xsl>
+  <xsl>kexp</xsl>
+  <xsl>soma</xsl>
+  <xsl>librivox</xsl>
+  <xsl>ted</xsl>
+  <xsl>oxford</xsl>
+  <xsl>rs</xsl>
+  <xsl>ra</xsl>
+  <xsl>qa</xsl>
+</container>
