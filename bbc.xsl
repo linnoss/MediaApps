@@ -891,37 +891,41 @@
   <xsl:template match="/container[starts-with(text(),'/podcasts/show/')]">
     <xsl:variable name="rss" select="substring-after(text(),'/podcasts/show/')" />
     <container>
-      <xsl:for-each select="document('http://www.bbc.co.uk/podcasts.opml')/opml/body/outline/outline/outline[@xmlUrl=$rss]">
+      <xsl:for-each select="document($rss)/rss/channel[1]">
+        <xsl:variable name="artwork">
+          <xsl:value-of select="image/url" />
+        </xsl:variable>
         <xsl:attribute name="name">
-          <xsl:value-of select="@text" />
+          <xsl:value-of select="title" />
         </xsl:attribute>
         <xsl:attribute name="artwork">
-          <xsl:value-of select="@imageHref" />
+          <xsl:value-of select="$artwork" />
         </xsl:attribute>
         <xsl:attribute name="description">
-          <xsl:value-of select="@description" />
+          <xsl:value-of select="description" />
         </xsl:attribute>
-      </xsl:for-each>
-      <xsl:for-each select="document($rss)/rss/channel/item">
-        <xsl:variable name="itemid" select="guid" />
-        <item>
-          <metadatum tag="type">audio</metadatum>
-          <metadatum tag="a.type">podcast</metadatum>
-          <metadatum tag="a.title">
-            <xsl:value-of select="title" />
-          </metadatum>
-          <metadatum tag="a.channels">2</metadatum>
-          <metadatum tag="a.bitrate">128000</metadatum>
-          <metadatum tag="a.codec">mp3</metadatum>
-          <metadatum tag="a.uri">
-            <xsl:value-of select="link" />
-          </metadatum>
-          <metadatum tag="a.artwork">
-            <xsl:value-of select="../image/url" />
-          </metadatum>
-        </item>
+        <xsl:for-each select="item">
+          <xsl:variable name="itemid" select="guid" />
+          <item>
+            <metadatum tag="type">audio</metadatum>
+            <metadatum tag="a.type">podcast</metadatum>
+            <metadatum tag="a.title">
+              <xsl:value-of select="title" />
+            </metadatum>
+            <metadatum tag="a.channels">2</metadatum>
+            <metadatum tag="a.bitrate">128000</metadatum>
+            <metadatum tag="a.codec">mp3</metadatum>
+            <metadatum tag="a.uri">
+              <xsl:value-of select="link" />
+            </metadatum>
+            <metadatum tag="a.artwork">
+              <xsl:value-of select="$artwork" />
+            </metadatum>
+          </item>
+        </xsl:for-each>
       </xsl:for-each>
     </container>
   </xsl:template>
 
 </xsl:stylesheet>
+
