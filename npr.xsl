@@ -8,7 +8,7 @@
     <plugin>
       <name>NPR</name>
       <enabled>false</enabled>
-      <period>300000</period>
+      <period>1440</period>
       <description>Radio stations and podcasts from America's National Public Radio network.</description>
       <link>http://www.npr.org/</link>
       <artwork>http://www.npr.org/about/images/press/npr_logo.jpg</artwork>

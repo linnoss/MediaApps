@@ -8,7 +8,7 @@
     <plugin>
       <name>The Royal Society</name>
       <enabled>false</enabled>
-      <period>300000</period>
+      <period>10080</period>
       <description>Podcasts and lectures published by The Royal Society.</description>
       <link>http://royalsociety.org/</link>
       <artwork>http://a2.twimg.com/profile_images/1688639016/RSlogo_square_reasonably_small.gif</artwork>

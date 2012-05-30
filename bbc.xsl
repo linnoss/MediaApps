@@ -8,7 +8,7 @@
     <plugin>
       <name>BBC</name>
       <enabled>true</enabled>
-      <period>2500</period>
+      <period>360</period>
       <description>Radio stations and podcasts from the British Broadcasting Company.</description>
       <link>http://www.bbc.co.uk/</link>
       <artwork>http://newsimg.bbc.co.uk/media/images/40906000/jpg/_40906539_bbc_logo_203.jpg</artwork>
@@ -68,7 +68,7 @@
         <metadatum tag="a.type">radio</metadatum>
         <metadatum tag="a.title">BBC Radio 3</metadatum>
         <metadatum tag="a.channels">2</metadatum>
-        <metadatum tag="a.bitrate">128000</metadatum>
+        <metadatum tag="a.bitrate">320000</metadatum>
         <metadatum tag="a.codec">wma</metadatum>
         <metadatum tag="a.uri">http://www.bbc.co.uk/radio/listen/live/r3_aaclca.pls</metadatum>
         <metadatum tag="a.artwork">http://www.bbc.co.uk/radio/images/home/r-home-id-r3.png</metadatum>

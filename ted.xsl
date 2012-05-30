@@ -8,7 +8,7 @@
     <plugin>
       <name>TED Talks</name>
       <enabled>false</enabled>
-      <period>10000</period>
+      <period>10080</period>
       <description>Talks to stir your curiosity.</description>
       <link>http://www.ted.com/talks</link>
       <artwork>http://ted.streamguys.net/TEDTalksvideo_tile_144.jpg</artwork>

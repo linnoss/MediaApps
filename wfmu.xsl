@@ -8,7 +8,7 @@
     <plugin>
       <name>WFMU</name>
       <enabled>false</enabled>
-      <period>10000</period>
+      <period>10080</period>
       <description>Independent freeform radio from New York.</description>
       <link>http://wfmu.org/</link>
       <artwork>http://www.wfmu.org/marathon/images/tl/FF_2011_woof_moo.jpg</artwork>

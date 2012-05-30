@@ -8,7 +8,7 @@
     <plugin>
       <name>Quranic Audio</name>
       <enabled>false</enabled>
-      <period>1800000</period>
+      <period>288000</period>
       <description>Recitations from the Quran with and without translations.</description>
       <link>http://quranicaudio.com/</link>
       <artwork>http://quranicaudio.com/imgs/logo.jpg?v=2</artwork>

@@ -8,7 +8,7 @@
     <plugin>
       <name>Librivox</name>
       <enabled>false</enabled>
-      <period>1800000</period>
+      <period>288000</period>
       <description>Acoustical liberation of books in the public domain.</description>
       <link>http://librivox.org/</link>
       <artwork>http://librivox.org/librivox_logo.jpg</artwork>

@@ -8,7 +8,7 @@
     <plugin>
       <name>Oxford University</name>
       <enabled>false</enabled>
-      <period>300000</period>
+      <period>10080</period>
       <description>Podcasts and lectures published by Oxford University.</description>
       <link>http://podcasts.ox.ac.uk/</link>
       <artwork>http://podcasts.ox.ac.uk/sites/podcasts/themes/betacast/logo.png</artwork>
