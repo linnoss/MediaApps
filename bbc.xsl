@@ -718,7 +718,7 @@
           <xsl:attribute name="artwork">http://www.bbc.co.uk/radio/images/home/r-home-id-r4.png</xsl:attribute>
         </xsl:when>
         <xsl:when test="$station='radio4extra'">
-          <xsl:attribute name="name">BBC Radio 4</xsl:attribute>
+          <xsl:attribute name="name">BBC Radio 4 Extra</xsl:attribute>
           <xsl:attribute name="artwork">http://www.bbc.co.uk/radio/images/home/r-home-id-r4ex.gif</xsl:attribute>
         </xsl:when>
         <xsl:when test="$station='fivelive'">
