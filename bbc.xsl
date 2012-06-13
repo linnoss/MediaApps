@@ -50,7 +50,7 @@
         <metadatum tag="a.channels">2</metadatum>
         <metadatum tag="a.bitrate">128000</metadatum>
         <metadatum tag="a.codec">wma</metadatum>
-        <metadatum tag="a.uri">http://www.bbc.co.uk/radio/listen/live/1xtra.asx</metadatum>
+        <metadatum tag="a.uri">http://www.bbc.co.uk/radio/listen/live/r1x.asx</metadatum>
         <metadatum tag="a.artwork">http://www.bbc.co.uk/radio/images/home/1x_radio_homepage.png</metadatum>
       </item>
       <item>
@@ -90,7 +90,7 @@
         <metadatum tag="a.channels">2</metadatum>
         <metadatum tag="a.bitrate">128000</metadatum>
         <metadatum tag="a.codec">wma</metadatum>
-        <metadatum tag="a.uri">http://www.bbc.co.uk/radio/listen/live/r4xtra.asx</metadatum>
+        <metadatum tag="a.uri">http://www.bbc.co.uk/radio/listen/live/r4x.asx</metadatum>
         <metadatum tag="a.artwork">http://www.bbc.co.uk/radio/images/home/r-home-id-r4ex.gif</metadatum>
       </item>
       <item>
@@ -632,7 +632,7 @@
         <metadatum tag="a.channels">2</metadatum>
         <metadatum tag="a.bitrate">32000</metadatum>
         <metadatum tag="a.codec">wma</metadatum>
-        <metadatum tag="a.uri">http://www.bbc.co.uk/worldservice/meta/tx/nb/live_infent_au_nb.asx</metadatum>
+        <metadatum tag="a.uri">http://www.bbc.co.uk/worldservice/meta/live/nb/eieuk_au_nb.asx</metadatum>
         <metadatum tag="a.artwork">http://bbc.co.uk/iplayer/img/radio/bbc_world_service.gif</metadatum>
       </item>
       <item>
@@ -642,7 +642,7 @@
         <metadatum tag="a.channels">2</metadatum>
         <metadatum tag="a.bitrate">32000</metadatum>
         <metadatum tag="a.codec">wma</metadatum>
-        <metadatum tag="a.uri">http://www.bbc.co.uk/worldservice/meta/tx/nb/live_news_au_nb.asx</metadatum>
+        <metadatum tag="a.uri">http://www.bbc.co.uk/worldservice/meta/live/nb/einws_au_nb.asx</metadatum>
         <metadatum tag="a.artwork">http://bbc.co.uk/iplayer/img/radio/bbc_world_service.gif</metadatum>
       </item>
       <item>
@@ -652,7 +652,7 @@
         <metadatum tag="a.channels">2</metadatum>
         <metadatum tag="a.bitrate">32000</metadatum>
         <metadatum tag="a.codec">wma</metadatum>
-        <metadatum tag="a.uri">http://www.bbc.co.uk/arabic/meta/tx/nb/arabic_live_au_nb.asx</metadatum>
+        <metadatum tag="a.uri">http://www.bbc.co.uk/arabic/meta/live/nb/arabic_live_au_nb.asx</metadatum>
         <metadatum tag="a.artwork">http://bbc.co.uk/iplayer/img/radio/bbc_world_service.gif</metadatum>
       </item>
       <item>
