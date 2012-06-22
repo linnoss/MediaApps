@@ -18,10 +18,38 @@
 
   <!-- HOME -->
 
+  <!--
   <xsl:template match="/container[text() = '/home']">
     <container name="Linn Records">
       <container>/podcasts</container>
       <container type="html">/previews</container>
+    </container>
+  </xsl:template>
+  -->
+
+  <xsl:template match="/container[text() = '/home']">
+    <container name="Linn Records">
+      <xsl:for-each select="document('http://www.linnrecords.com/rss/podcasts.aspx')/rss/channel/item">
+        <item>
+          <metadatum tag="type">audio</metadatum>
+          <metadatum tag="a.type">podcast</metadatum>
+          <metadatum tag="a.title">
+            <xsl:value-of select="title"/>
+          </metadatum>
+          <metadatum tag="a.description">
+            <xsl:value-of select="description"/>
+          </metadatum>
+          <metadatum tag="a.uri">
+            <xsl:value-of select="enclosure/@url" />
+          </metadatum>
+          <metadatum tag="a.duration">
+            <xsl:value-of select="enclosure/@length"/>
+          </metadatum>
+          <metadatum tag="a.channels">2</metadatum>
+          <metadatum tag="a.codec">mp3</metadatum>
+          <metadatum tag="a.artwork"></metadatum>
+        </item>
+      </xsl:for-each>
     </container>
   </xsl:template>
 
