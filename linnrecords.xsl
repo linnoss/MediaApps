@@ -9,9 +9,9 @@
       <name>Linn Records</name>
       <enabled>true</enabled>
       <period>10080</period>
-      <description>Listen to Linn Records podcasts and preview their albums.</description>
+      <description>Listen to Linn Records podcasts.</description>
       <link>http://www.linnrecords.com/</link>
-      <artwork>http://www.linnrecords.com/img/album/larger/akp-975.jpg</artwork>
+      <artwork>http://www.linnrecords.com/img/label/Linn_logo_100x100.jpg</artwork>
       <container>/home</container>
     </plugin>
   </xsl:template>
